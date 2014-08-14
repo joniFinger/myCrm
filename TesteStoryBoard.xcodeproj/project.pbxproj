@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513F8009199D28740036F9F5 /* BPDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F8008199D28740036F9F5 /* BPDViewController.m */; };
 		83AB62D5199BEB41000807CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AB62D4199BEB41000807CC /* Foundation.framework */; };
 		83AB62D7199BEB41000807CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AB62D6199BEB41000807CC /* CoreGraphics.framework */; };
 		83AB62D9199BEB41000807CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AB62D8199BEB41000807CC /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		513F8007199D28740036F9F5 /* BPDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDViewController.h; sourceTree = "<group>"; };
+		513F8008199D28740036F9F5 /* BPDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDViewController.m; sourceTree = "<group>"; };
 		83AB62D1199BEB41000807CC /* TesteStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AB62D4199BEB41000807CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83AB62D6199BEB41000807CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				83AB62E6199BEB41000807CC /* Main_iPhone.storyboard */,
 				83AB62E9199BEB41000807CC /* Main_iPad.storyboard */,
 				83AB62EC199BEB41000807CC /* ViewController.h */,
+				513F8007199D28740036F9F5 /* BPDViewController.h */,
+				513F8008199D28740036F9F5 /* BPDViewController.m */,
 				83AB62ED199BEB41000807CC /* ViewController.m */,
 				83AB62EF199BEB41000807CC /* Images.xcassets */,
 				83AB62DB199BEB41000807CC /* Supporting Files */,
@@ -256,6 +261,7 @@
 				83AB62EE199BEB41000807CC /* ViewController.m in Sources */,
 				83AB62E5199BEB41000807CC /* AppDelegate.m in Sources */,
 				83AB62E1199BEB41000807CC /* main.m in Sources */,
+				513F8009199D28740036F9F5 /* BPDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +476,7 @@
 				83AB6308199BEB41000807CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83AB6309199BEB41000807CC /* Build configuration list for PBXNativeTarget "TesteStoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				83AB630B199BEB41000807CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
